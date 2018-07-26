@@ -1,11 +1,11 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.2.11'
+gem 'rails', '3.2.22'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'devise'
+gem 'devise', '~> 2.1', '>= 2.1.2'
 gem 'devise-encryptable'
 gem 'cancan'
 gem 'nifty-generators', :group => :development
@@ -16,7 +16,7 @@ gem 'will_paginate'
 gem 'escape_utils'
 gem 'prawn'
 gem 'quiet_assets'
-gem 'pg'
+gem 'pg', '~> 0.11'
 
 group :assets do
   gem 'sass-rails', "  ~> 3.2.3"
@@ -60,3 +60,5 @@ group :development, :test do
   gem 'launchy'
 	gem 'sqlite3'
 end
+
+ruby "2.3.3"
