@@ -6,7 +6,7 @@ development:
   database: ezslp
   pool: 5
   host: localhost
-  username: marklocklear
+  username: meghanduprey
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
