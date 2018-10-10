@@ -39,7 +39,7 @@ Released   : 20090717
         <header>
             <div class="main-header navbar row-fluid">
                 <div class="navbar-inner">
-                    <a class="brand" href="/home"><%=image_tag("logo.png", alt: "ezSLP logo")%></a>
+                    <a class="brand" href="/about"><%=image_tag("logo.png", alt: "ezSLP logo")%></a>
                     <ul class="nav nav-pills pull-right">
                         <li class="active">
                             <a id="blue-button" href="/register">REGISTER/LOGIN</a>
@@ -55,8 +55,7 @@ Released   : 20090717
             <nav class="navbar row-fluid main-nav">
                 <div class="navbar-inner">       
                     <ul class="nav nav-stacked pull-right main-nav">
-                        <li class="<%= 'active' if current_page?(root_path) %>"><%= link_to "HOME", root_path%></li>
-                        <li class="<%= 'active' if current_page?(about_path) %>"><%= link_to "ABOUT", about_path%></li>
+                        <li class="<%= 'active' if current_page?(about_path) %>"><%= link_to "HOME", about_path%></li>
                         <li class="<%= 'active' if current_page?(contact_path) %>"><%= link_to "CONTACT", contact_path%></li>
                         <li class="<%= 'active' if current_page?(register_path) %>"><%= link_to "REGISTER", register_path%></li>
                         <li class="<%= 'active' if current_page?(screencasts_path) %>"><%= link_to "VIDEOS", screencasts_path%></li>
