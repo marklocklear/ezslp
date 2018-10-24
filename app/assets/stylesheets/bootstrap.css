@@ -135,7 +135,6 @@ body {
 	font-family: 'Open Sans', Verdana, Geneva, Tahoma, sans-serif;
   font-size: 1em;
   line-height: 18px;
-  color: #2b2b2b;
   background-color: #ffffff;
 }
 a {
@@ -297,7 +296,7 @@ a:hover {
 .main-content {
   padding: 60px;
   margin-bottom: 30px;
-  background-color: #eeeeee;
+/*  background-color: #eeeeee;*/
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   border-radius: 6px;
@@ -337,7 +336,7 @@ p {
 }
 p small {
   font-size: 11px;
-  color: #444;
+  color: #000;
 }
 .lead {
   margin-bottom: 18px;
@@ -364,7 +363,7 @@ h4 small,
 h5 small,
 h6 small {
   font-weight: normal;
-  color: #444;
+  color: #000;
 }
 h1 {
   font-size: 30px;
@@ -403,13 +402,13 @@ h5 {
 }
 h6 {
   font-size: 11px;
-  color: #444;
+  color: #000;
   text-transform: uppercase;
 }
 .page-header {
   padding-bottom: 17px;
   margin: 18px 0;
-  border-bottom: 1px solid #eeeeee;
+  border-bottom: 1px solid #fff;
 }
 .page-header h1 {
   line-height: 1;
@@ -426,7 +425,7 @@ ol ul {
   margin-bottom: 0;
 }
 ul {
-  list-style: disc;
+  list-style: none;
 }
 ol {
   list-style: decimal;
@@ -465,7 +464,7 @@ dd {
 hr {
   margin: 18px 0;
   border: 0;
-  border-top: 1px solid #eeeeee;
+  border-top: 1px solid #fff;
   border-bottom: 1px solid #ffffff;
 }
 strong {
@@ -499,7 +498,7 @@ blockquote p {
 blockquote small {
   display: block;
   line-height: 18px;
-  color: #444;
+  color: #000;
 }
 blockquote small:before {
   content: '\2014 \00A0';
@@ -2969,7 +2968,7 @@ input[type="submit"].btn.btn-mini {
 }
 .navbar-fixed-top,
 .navbar-fixed-bottom {
-  background-color: #2b2b2b;
+  background-color: #fef2ee;
   position: fixed;
   right: 0;
   left: 0;
@@ -3012,13 +3011,14 @@ input[type="submit"].btn.btn-mini {
   float: none;
   padding: 10px 10px 11px;
   line-height: 19px;
-  color: #fff;
+  color: #2b2b2b;
   text-decoration: none;
   /* text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25); */
 }
 .navbar .nav > li > a:hover {
-  background-color: transparent;
-  color: #ffffff;
+  background-color: #2b2b2b;
+    color: #fff;
+/*  color: #767676;*/
   text-decoration: none;
 }
 .navbar .nav .active > a,
