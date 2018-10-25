@@ -42,6 +42,7 @@ a:focus {
 a:hover,
 a:active {
   outline: 0;
+    font-size: 1.1em;
 }
 sub,
 sup {
@@ -2019,7 +2020,7 @@ table .span24 {
   *margin-left: 0;
 }
 .btn:hover {
-  color: #333333;
+  color: #fef2ee;
   text-decoration: none;
   background-color: #e6e6e6;
   background-position: 0 -15px;
@@ -3016,17 +3017,17 @@ input[type="submit"].btn.btn-mini {
   /* text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25); */
 }
 .navbar .nav > li > a:hover {
-  background-color: #2b2b2b;
-    color: #fff;
+  background-color: #fef2ee;
+    color: #2b2b2b;
 /*  color: #767676;*/
   text-decoration: none;
 }
 .navbar .nav .active > a,
 .navbar .nav .active > a:hover {
   border-radius: 5px;
-  color: #ffffff;
+  color: #2b2b2b;
   text-decoration: none;
-  background-color: #2b2b2b;
+  background-color: #fef2ee;
 }
 .navbar .divider-vertical {
   height: 40px;

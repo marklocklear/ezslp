@@ -25,6 +25,7 @@ header {
     margin-right: 10px;
 	margin-top: 12px;
 	text-shadow: none;
+    width: 130px;
 }
 #blue-button:hover {
     font-size: 1.1em;
