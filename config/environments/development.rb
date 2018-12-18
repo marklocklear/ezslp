@@ -42,15 +42,5 @@ Ezslp3::Application.configure do
   config.action_mailer.perform_deliveries = true
   config.action_mailer.raise_delivery_errors = true
   config.action_mailer.default :charset => "utf-8"
-
-  config.action_mailer.smtp_settings = {
-    :enable_starttls_auto => true,
-    :address => 'smtp.gmail.com',
-    :port => 587,
-    :authentication => :plain,
-    :domain => 'ezslp.com',
-    :user_name => 'info@ezslp.com',
-    :password => ''
-  }
 end
 

@@ -3,3 +3,7 @@ db/*.sqlite3
 log/*.log
 tmp/
 .sass-cache/
+<<<<<<< HEAD
+=======
+config/database.yml
+>>>>>>> 4299bdc0db743995802e852cb5570cc2925e9372

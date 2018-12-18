@@ -1,3 +1,4 @@
+
 /*
 Style for public facing/static pages
 Design by Free CSS Templates
@@ -6,14 +7,14 @@ Released for free under a Creative Commons Attribution 2.5 License
 */
 
 body {
-	margin: 0px;
-	padding: 0px;
-	background: #B4F4FF url(/assets/img01.jpg) repeat-x left top;
-	line-height: 25px;
+	background-color: #fff;
+	color: #444;
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 	font-size: 12px;
+	line-height: 25px;
+	margin: 0px;
+	padding: 0px;
 	/*5698A3 9B9A9A */
-	color: #000000;
 }
 
 h1, h2, h3 {
@@ -95,8 +96,7 @@ hr { display: none; }
 #header {
 	width: 900px;
 	height: 92px;
-	margin: 0px auto;
-	background: url(/assets/img02.gif) no-repeat left top;
+	margin: 0 auto;
 }
 
 /* Logo */
@@ -424,53 +424,3 @@ hr { display: none; }
 #footer a {
 	color: #A2CAD1;
 }
-=======
-html {
-}
-.wrapper {
-	background-color: #fff;
-	margin: 0 auto;
-	width: 80%;
-}
-body {
-/*	background-color: #fef2ee;*/
-	/* font-family: 'Open Sans', Verdana, Geneva, Tahoma, sans-serif; */
-}
-header {
-	background-color: #fff;
-	padding-top:20px;
-}
-.main-header {
-}
-.main-nav {
-/*	background-color: #fe9678;*/
-    background-color: #fef2ee;
-	color: #2b2b2b;
-}
-#blue-button {
-	background-color: #07889b;
-    margin-right: 10px;
-	margin-top: 12px;
-	text-shadow: none;
-    width: 130px;
-}
-#blue-button:hover {
-    font-size: 1.1em;
-}
-.entry {
-	padding: 15px;
-    border: 5px solid #fef2ee;
-    border-radius: 5px;
-}
-footer {
-	background-color: #fef2ee;
-}
-footer p {
-	color: #2b2b2b;
-	padding: 10px;
-}
-footer .btn {
-	margin-bottom: 5px;
-	margin-right: 10px;
-}
->>>>>>> 4299bdc0db743995802e852cb5570cc2925e9372

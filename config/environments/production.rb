@@ -75,5 +75,4 @@ Ezslp3::Application.configure do
     :domain => 'ezslp.com',
     :user_name => 'info@ezslp.com',
     :password => ''
-  }
 end
