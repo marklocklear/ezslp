@@ -13,7 +13,7 @@ Ezslp3::Application.configure do
   config.action_dispatch.x_sendfile_header = "X-Sendfile"
 
 	#this adds my static pages to precompile for heroku
-	config.assets.precompile += ['static_pages.css', 'event_calendar.css']
+	# config.assets.precompile += ['static_pages.css', 'event_calendar.css']
 	GA.tracker = "UA-51493431-1"
 
   # For nginx:
@@ -60,19 +60,4 @@ Ezslp3::Application.configure do
 	# Generate digests for assets URLs
 	config.assets.digest = true
 
-  #mail config
-  config.action_mailer.default_url_options = { :host => 'ezslp.heroku.com' }
-  config.action_mailer.delivery_method = :smtp
-  config.action_mailer.perform_deliveries = true
-  config.action_mailer.raise_delivery_errors = true
-  config.action_mailer.default :charset => "utf-8"
-
-  config.action_mailer.smtp_settings = {
-    :enable_starttls_auto => true,
-    :address => 'smtp.gmail.com',
-    :port => 587,
-    :authentication => :plain,
-    :domain => 'ezslp.com',
-    :user_name => 'info@ezslp.com',
-    :password => ''
 end
