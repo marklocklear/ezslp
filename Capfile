@@ -13,6 +13,8 @@ require "capistrano/deploy"
 # install_plugin Capistrano::SCM::Svn
 # or
 require "capistrano/scm/git"
+require 'capistrano/rails'
+
 install_plugin Capistrano::SCM::Git
 load 'deploy/assets'
 
